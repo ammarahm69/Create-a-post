@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="post-container">
+        <div class="post-editor">
+            <textarea id="postContent" class="editable" style="width: 95%;" placeholder="Create a Post"></textarea>
+            <div class="toolbar">
+                <ul>
+                    <li>
+                        <div class="bold-btn" onclick="toggleBold()" id="b">B</div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="bold-btn" onclick="toggleItalic()" id="i">I</div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="bold-btn" onclick="toggleUnderline()" id="u">U</div>
+                    </li>
+                </ul>
+                <label for="text">
+                    Change Color:<input type="color" id="textColor" onchange="changeTextColor()" >
+                </label>
+
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>

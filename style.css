@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .post-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar {
+    margin-bottom: 10px;
+  }
+ 
+  .bold-btn {
+    padding: 0px 0px;
+    
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  li{
+    list-style-type: none;
+  }
+  
+  .editable {
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #textColor,
+  #bgColor {
+    margin-left: 10px;
+  }
+  
